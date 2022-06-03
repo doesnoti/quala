@@ -1,0 +1,72 @@
+.text--fz-12 {
+	font-size: 12px;
+}
+.text--fz-13 {
+	font-size: 13px;
+}
+.text--fz-14 {
+	font-size: 14px;
+	line-height: 140%;
+}
+.text--fz-16 {
+	font-size: 16px;
+}
+.text--fz-24 {
+	font-size: 24px;
+}
+.text--fz-33 {
+	font-size: 33px;
+}
+.text--fz-36 {
+	font-size: 36px;
+}
+.text--fw-500 {
+	font-weight: 500;
+}
+
+/*------------------------------color-----------------------------------*/
+
+.text--c-main {
+	color: var(--main-color);
+}
+.text--c-text {
+	color: var(--text-color);
+}
+.text--c-contr {
+	color: var(--contr-color);
+}
+.text--c-purple {
+	color: var(--purple-color);
+}
+.text--c-blue {
+	color: var(--blue-color);
+}
+.link--c-purple {
+	color: var(--purple-color);
+	transition: color var(--hover-time) ease-out;
+}
+.link--c-purple:hover {
+	color: #6A1CB4;
+}
+.link--c-main {
+	color: var(--main-color);
+	transition: color var(--hover-time) ease-out;
+}
+.link--c-main:hover {
+	color: var(--blue-color);
+}
+
+/*------------------------------margins-----------------------------------*/
+
+.block--mr-16 {
+	margin-right: 16px;
+}
+.block--ml-24 {
+	margin-left: 24px;
+}
+
+/*------------------------------mobile-----------------------------------*/
+
+.header__button--mobile {
+	display: none;
+}

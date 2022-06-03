@@ -1,0 +1,18 @@
+:root {
+	--main-color: #FFC700;
+	--purple-color: #B15FFE;
+	--blue-color: #3A99D0;
+	--bg-color: #1B2B42;
+	--text-color: #1B3642;
+	--contr-color: #FFFFFF;
+	--header-height: 100px;
+	--mainscreen-rect-pos: 0px;
+	--clients-block-width: 1240;
+	--clients-block-height: 382;
+	--features-count-width: 80px;
+	--features-semicircle-height: 270px;
+	--team-column-numb: 4;
+	--team-column-gap: 26px;
+	--hover-time: 300ms;
+	--anim-time: 600ms;
+}

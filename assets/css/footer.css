@@ -1,0 +1,25 @@
+.footer {
+	padding-top: 50px;
+	padding-bottom: 133px;
+}
+.footer__body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.footer__logo {
+	width: 170px;
+}
+.footer__links-block {
+	display: flex;
+	align-items: flex-start;
+	column-gap: 156px;
+}
+.footer__links-column {}
+.footer__links-title {
+	font-weight: 500;
+	color: #45697E;
+	margin-bottom: 13px;
+}
+.footer__list {}
+.footer__list-item {}

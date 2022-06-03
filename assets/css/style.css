@@ -1,0 +1,49 @@
+/*
+* Reset browser styles.
+*/
+@import url('reset.css');
+
+/*
+* Connecting fonts.
+*/
+@import url('fonts.css');
+
+/*
+* Variables for styles.
+*/
+@import url('variables.css');
+
+/*
+* Common styles for elements.
+*/
+@import url('common.css');
+
+/*
+* Header styles.
+*/
+@import url('header.css');
+
+/*
+* Popups styles.
+*/
+@import url('popups.css');
+
+/*
+* Main styles.
+*/
+@import url('main.css');
+
+/*
+* Footer styles.
+*/
+@import url('footer.css');
+
+/*
+* Modifiers for elements.
+*/
+@import url('modifiers.css');
+
+/*
+* @media.
+*/
+@import url('@media.css');

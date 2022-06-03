@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1300px){
+	.text--fz-12 {
+		font-size: 12px;
+	}
+	.text--fz-16 {
+		font-size: 16px;
+	}
+	.text--fz-24 {
+		font-size: 22px;
+	}
+	.text--fz-33 {
+		font-size: 30px;
+	}
+	.text--fz-36 {
+		font-size: 32px;
+	}
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+	.text--fz-12 {
+		font-size: 12px;
+	}
+	.text--fz-16 {
+		font-size: 16px;
+	}
+	.text--fz-24 {
+		font-size: 16px;
+	}
+	.text--fz-33 {
+		font-size: 24px;
+	}
+	.text--fz-36 {
+		font-size: 23px;
+	}
+
+	/*------------------------------mobile-----------------------------------*/
+
+	.header__button--mobile {
+		display: flex;
+	}
+}

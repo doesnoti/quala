@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1300px){
+	.header__nav {
+		margin-right: 30px;
+	}
+}
+
+
+
+@media only screen and (max-width: 1000px){
+	:root {
+		--header-height: 60px;
+	}
+	.header__logo {
+		display: none;
+	}
+	.header__menu-button {
+		display: flex;
+	}
+	.header__nav {
+		display: none;
+	}
+}

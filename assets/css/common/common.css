@@ -1,0 +1,111 @@
+/*----------------------------------common-------------------------------*/
+
+html{
+	overflow-x: hidden;
+}
+.page{
+	overflow: hidden;
+	background: var(--bg-color);
+}
+.wrapper{
+	width: 90vw;
+	max-width: 1240px;
+	margin: auto;
+}
+.main{}
+.section {
+	position: relative;
+	z-index: 1;
+}
+
+/*------------------------------nav-----------------------------------*/
+
+.nav {}
+.menu {
+	display: flex;
+	align-items: center;
+	column-gap: 42px;
+}
+.menu__item {}
+.menu__link {
+	color: var(--contr-color);
+	transition: color var(--hover-time) ease-out;
+}
+.menu__link:hover {
+	color: var(--purple-color);
+}
+.menu__link.active {
+	color: var(--main-color);
+	pointer-events: none;
+}
+
+/*------------------------------sticky-----------------------------------*/
+
+.sticky__container {
+	position: relative;
+	height: 100%;
+}
+.sticky {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	bottom: auto;
+}
+.sticky.fixed {
+	position: fixed;
+	top: var(--header-height);
+}
+.sticky.fixed.bot {
+	position: absolute;
+	top: auto;
+	bottom: 0;
+}
+
+/*------------------------------blocks-----------------------------------*/
+
+.empty {}
+.grid-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 55px;
+	grid-row-gap: 20px;
+}
+.h-line {
+	height: 3px;
+	width: 100%;
+	background: var(--contr-color);
+	border-radius: 2px;
+}
+
+/*------------------------------animation-----------------------------------*/
+
+@keyframes floating {
+	from {
+		transform: translateY(0) rotate(2deg);
+	}
+	50% {
+		transform: translateY(-8%) rotate(0);
+	}
+	to {
+		transform: translateY(0) rotate(2deg);
+	}
+}
+.js-anim {}
+.svg__stroke {
+	transition: var(--anim-time) ease-out;
+	transition-property: stroke-dasharray, stroke-dashoffset;
+}
+.svg__stroke.animated {
+	stroke-dashoffset: 0 !important;
+}
+.anim__slide--right {
+	transform: translateX(100%);
+	transition: transform var(--anim-time) ease-out;
+}
+.anim__slide--left {
+	transform: translateX(-100%);
+	transition: transform var(--anim-time) ease-out;
+}
+.anim__slide--right.animated, .anim__slide--left.animated {
+	transform: translateX(0);
+}

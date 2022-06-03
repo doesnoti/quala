@@ -1,0 +1,43 @@
+/*----------------------------------text-------------------------------*/
+
+.text{
+	font-family: Rubik;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 178%;
+	letter-spacing: 0.75px;
+	color: var(--text-color);
+}
+.button-text {
+	font-family: Rubik;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+	letter-spacing: 0.341379px;
+	color: inherit;
+	white-space: nowrap;
+}
+.title{
+	font-family: Rubik;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 117%;
+	letter-spacing: 1px;
+	color: var(--text-color);
+}
+.subtitle {
+	font-family: Rubik;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 145%;
+	letter-spacing: 1px;
+	color: var(--contr-color);
+}
+.icon {
+	font-size: inherit;
+	font-weight: 400;
+	color: inherit;
+}
+.link{
+	text-decoration: none;
+}

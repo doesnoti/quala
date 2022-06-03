@@ -1,0 +1,56 @@
+/*----------------------------------media-------------------------------*/
+
+.img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.svg{
+	display: block;
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+.logo {
+	cursor: pointer;
+	overflow: visible;
+}
+.logo__hexagon {
+	transform-origin: center;
+	transform: scale(0);
+	transition: transform var(--anim-time) ease-out;
+}
+.logo.animated > .logo__hexagon {
+	transform: scale(1);
+}
+.logo.animated > .svg__stroke {
+	stroke-dashoffset: 0 !important;
+}
+.logo > .logo__hexagon.animating {
+	animation: logo-anim var(--anim-time) linear;
+}
+@keyframes logo-anim {
+	from {
+		transform: scale(1);
+	}
+	30% {
+		transform: scale(.4);
+	}
+	60% {
+		transform: scale(1.2);
+	}
+	75% {
+		transform: scale(.9);
+	}
+	90% {
+		transform: scale(1.05);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+.decoration {
+	position: absolute;
+	z-index: -1;
+}

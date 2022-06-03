@@ -1,0 +1,42 @@
+/*----------------------------------buttons-------------------------------*/
+
+.button {
+	outline: none;
+	border: none;
+	-webkit-tap-highlight-color: transparent;
+	height: 64px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--main-color);
+	border-radius: 2px;
+	color: var(--text-color);
+	cursor: pointer;
+	padding: 0px 30px;
+	transition: background var(--hover-time) ease-out;
+}
+.button:hover {
+	background: var(--contr-color);
+}
+.transp-button {
+	background: transparent;
+	padding: 0;
+}
+.transp-button:hover {
+	background: transparent;
+}
+.menu-button {
+	height: 37px;
+	width: 37px;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: 7px 3px;
+}
+.menu-button > .h-line {transition: width var(--hover-time) ease-out;}
+.menu-button > .h-line:nth-child(1) {width: 100%;}
+.menu-button > .h-line:nth-child(2) {width: 71%;}
+.menu-button > .h-line:nth-child(3) {width: 52%;}
+.menu-button:hover > .h-line:nth-child(1) {width: 52%;}
+.menu-button:hover > .h-line:nth-child(2) {width: 71%;}
+.menu-button:hover > .h-line:nth-child(3) {width: 100%;}
